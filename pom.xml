@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--
+
+    <groupId>dx.testing</groupId>
+    <artifactId>hello-world</artifactId>
+    <version>1.0.0</version>
+
+    <distributionManagement>
+        <repository>
+          <id>repsy</id>
+          <name>My Private Maven Repositoty on Repsy</name>
+          <url>https://repo.repsy.io/mvn/cardsigner/default</url>
+        </repository>
+    </distributionManagement>
+    -->
+
+    <groupId>dx.aaa</groupId>
+    <artifactId>bbb</artifactId>
+    <version>1.0.0</version>
+     <packaging>pom</packaging>
+       
+    <distributionManagement>
+      <repository>
+          <id>bintray-dexter-dx</id>
+          <url>https://api.bintray.com/maven/dexter/dx/wtf666;publish=1</url>
+      </repository>
+    </distributionManagement>
+
+</project>
