@@ -20,14 +20,14 @@
     -->
 
     <groupId>dx.aaa</groupId>
-    <artifactId>bbb</artifactId>
+    <artifactId>ccc</artifactId>
     <version>1.0.0</version>
      <packaging>pom</packaging>
        
     <distributionManagement>
       <repository>
           <id>bintray-dexter-dx</id>
-          <url>https://api.bintray.com/maven/dexter/dx/wtf666;publish=1</url>
+          <url>https://api.bintray.com/maven/dexter/dx/dx.stuff;publish=1</url>
       </repository>
     </distributionManagement>
 
